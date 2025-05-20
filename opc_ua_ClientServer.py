@@ -8,7 +8,7 @@ import random
 SERVER_ENDPOINT = "opc.tcp://localhost:5555"
 NAMESPACE_URL = "OPC_SIMULATION"
 NODE_NAME = "Parameters" 
-TEMP_VARIABLE = "Temperature" 
+TEMP_VARIABLE = "Temperature"
 PRESS_VARIABLE = "Pressure" 
 TIME_VARIABLE = "Time" 
 

@@ -98,7 +98,7 @@ def opcuaClient():
             Press = client.get_node(PressVar)
             Pressure = Press.get_value()
             print("#######################################################")
-            print(f"############## Pressure: {Pressure} ###############")
+            print(f"############## Pressure: {Pressure} ##################")
             print("#######################################################")
 
             TimeVar = root.get_child(["0:Objects", f"{idx}:{NODE_NAME}", f"{idx}:{TIME_VARIABLE}"])
@@ -106,7 +106,7 @@ def opcuaClient():
             Time_var = client.get_node(TimeVar)
             Time = Time_var.get_value()
             print("#######################################################")
-            print(f"############## Time: {Time} ###############")
+            print(f"#################### Time: {Time} ####################")
             print("#######################################################")
 
     except Exception as e:
